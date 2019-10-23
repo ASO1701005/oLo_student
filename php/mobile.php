@@ -31,7 +31,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css.css">
+        <link rel="stylesheet" type="text/css" href="../css/css.css">
         <title>文書チェック画面</title>
     </head>
     <body>
@@ -44,7 +44,7 @@
                 <center><p>ここにアドバイスが表示されます。</p></center>
             </div>
             <div class="img">
-                <img src="job_hisyo_kochira.png" id="hisyo">
+                <img src="../png/job_hisyo_kochira.png" id="hisyo">
             </div>
         </div>
     </body>
