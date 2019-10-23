@@ -1,0 +1,62 @@
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+
+}
+.btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+.box1 {
+    width:auto;
+    height:730px;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    text-align: center;
+
+}
+.box1 p{
+    font-size:20pt;
+    height:350px;
+    margin:0;
+    padding: 0;
+}
+.box{
+    overflow: hidden;
+}
+.box2 {
+    width:20%;
+    height:730px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    float: left;
+}
+.box2 p{
+    font-size:20pt;
+    margin: 0;
+    padding: 0;
+}
+img.hisyo {
+    float: left;
+    width:45%;
+    height:730px;
+    display: inline-block;
+}
+.img {
+    width: auto;
+
+}
+/*スケジュール確認画面*/
+#id {
+    float:left;
+}

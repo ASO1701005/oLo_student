@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="css.css">
+
+    <span id="winsize2"></span>
+    <script type="text/javascript">
+        //読み込み時の表示
+        window_load();
+        //ウィンドウサイズ変更時に更新
+        window.onresize = window_load;
+        //サイズの表示
+        function window_load() {
+            var sW,sH,s;
+            sW = window.innerWidth;
+            sH = window.innerHeight;
+            s = "ウィンドウサイズ：横幅 = " + sW + " / 高さ = " + sH;
+            // document.getElementById("winsize2").innerHTML = s;
+        }
+    </script>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>文書チェック画面</title>
+    </head>
+    <body>
+        <center><h1>文書チェック</h1></center>
+        <div class="box1" align="center">
+            <p>ここに画像から読み込んだ文章が表示されます。</p>
+        </div>
+        <div class="box2">
+            <center><p>アドバイスが表示されます。</p></center>
+        </div>
+        <img src="job_hisyo_kochira.png" class="hisyo" style="position: absolute; left: 470px; top: 880px">
+
+        <center><a href="#" class="btn-square" style="position: absolute; bottom: 0px; left: 400px;">画像を読み込む</a></center>
+    </body>
+
+
+</html>
