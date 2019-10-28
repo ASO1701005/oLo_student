@@ -1,4 +1,4 @@
-.btn-square {
+.Dbtn-square {
     display: inline-block;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -25,7 +25,6 @@
 }
 .box1 p{
     font-size:20pt;
-    height:350px;
     margin:0;
     padding: 0;
 }
@@ -33,13 +32,7 @@
     overflow: hidden;
 }
 .box2 {
-    width:20%;
-    height:730px;
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #000000;
-    float: left;
+
 }
 .box2 p{
     font-size:20pt;
@@ -56,7 +49,13 @@ img.hisyo {
     width: auto;
 
 }
-/*スケジュール確認画面*/
-#id {
-    float:left;
+/*アカウント管理画面*/
+.Abtn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8; /*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
 }
