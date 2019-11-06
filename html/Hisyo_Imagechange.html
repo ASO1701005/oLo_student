@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>秘書キャラ画像変更</title>
+</head>
+<body>
+    <br>
+    <center><h1>秘書キャラ画像変更</h1></center>
+
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <p>画像ファイルを選択</p>
+    <input type="file" id="target" accept="image/*">
+    <p>ここに選択された画像を表示</p></center>
+    <center><img id="myImage"></center>
+    <script src="load.js"></script>
+    </body>
+    </html>
+    <script>
+        const target = document.getElementById('target');
+        target.addEventListener('change', function (e) {
+            const file = e.target.files[0]
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const img = document.getElementById("myImage")
+                img.src = e.target.result;
+            }
+            reader.readAsDataURL(file);
+        }, false);
+    </script>
+
+    <center><img src="../png/job_hisyo.png" class="jobhisyo"></center>
+    <center><a href="#" class="<Bbtn-square";>画像の変更</a></center>
+</body>
+</html>
